@@ -1,0 +1,17 @@
+<ag-grid-angular
+  #agGrid
+  style="width: 500px; height: 500px;"
+  class="ag-theme-alpine"
+  [rowData]="library"
+  [columnDefs]="libColDefs"
+  >
+  </ag-grid-angular>
+<button (click)="loadBooks()">Fetch Library Books</button>
+
+<ag-grid-angular
+  style="width: 500px; height: 500px;"
+  class="ag-theme-alpine"
+  [rowData]="librarydetail"
+  [columnDefs]="bookColDefs"
+>
+</ag-grid-angular>
