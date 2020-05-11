@@ -1,0 +1,3 @@
+INSERT INTO LIBRARY VALUES (1, 'National Library');
+INSERT INTO LIBRARY VALUES (2, 'British Library');
+INSERT INTO LIBRARY VALUES (3, 'Harvard Library');
